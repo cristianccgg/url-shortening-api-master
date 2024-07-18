@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "/public/images/logo.svg";
 
 export const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,11 +14,7 @@ export const Navbar = () => {
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center">
             <div className="flex-shrink-0">
-              <img
-                className="h-8 w-auto"
-                src="/public/images/logo.svg"
-                alt="Your Company"
-              />
+              <img className="h-8 w-auto" src={logo} alt="Your Company" />
             </div>
           </div>
 
