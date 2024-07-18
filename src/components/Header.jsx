@@ -1,5 +1,4 @@
 import React from "react";
-import ilustration from "/public/images/illustration-working.svg";
 
 export const Header = () => {
   return (
@@ -7,7 +6,7 @@ export const Header = () => {
       <div className="relative w-full h-72 sm:order-2 sm:block">
         <img
           className="absolute right-0 transform translate-x-0 lg:translate-x-16 md:translate-x-16 -translate-y-20 max-h-96 lg:-translate-y-5 lg:scale-125 md:-translate-y-0  sm:scale-150  sm:translate-y-1/2"
-          src={ilustration}
+          src="/public/images/illustration-working.svg"
           alt="ilustration"
         />
       </div>
